@@ -4,6 +4,7 @@ using UnityEngine;
 using System.IO;
 using UnityEngine.Networking;
 using TMPro;
+using System.Text;
 
 public class JsonSerializer : MonoBehaviour
 {

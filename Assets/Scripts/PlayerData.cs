@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 [Serializable]
@@ -19,4 +20,9 @@ public class PlayerData
     {
         return JsonUtility.FromJson<PlayerData>(json);
     }
+}
+
+public class Players
+{
+    public PlayerData[] Entries { get; set; }
 }
